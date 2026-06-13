@@ -1,41 +1,1409 @@
 {
   "metadata": {
-    "source": "Portal UFG",
-    "last_updated": "2026-06-08",
-    "description": "Fila de documentos da Universidade Federal de Goiás para ingestão no RAG-LPP."
+    "source": "Busca Exaustiva Documentos UFG.pdf",
+    "last_updated": "2026-06-13",
+    "description": "Fila de PDFs extraídos do documento."
   },
   "documents": [
     {
-      "id": "resolucao_cepec_1752_2022",
-      "title": "Resolução CEPEC Nº 1752/2022 - RGCG (Regulamento Geral dos Cursos de Graduação)",
-      "url": "https://sistemas.ufg.br/resolucoes/arquivos/cepec_1752_2022.pdf",
-      "category": "graduacao",
-      "year": 2022,
-      "status": "pending"
-    },
-    {
-      "id": "estatuto_ufg",
-      "title": "Estatuto da Universidade Federal de Goiás",
-      "url": "https://sistemas.ufg.br/resolucoes/arquivos/estatuto_ufg.pdf",
+      "id": "documento_ufg_resolucoes",
+      "title": "Documento UFG: Resolucoes",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
       "category": "institucional",
-      "year": 2021,
-      "status": "pending"
+      "year": 2026,
+      "status": "downloaded"
     },
     {
-      "id": "resolucao_consuni_32_2013",
-      "title": "Resolução CONSUNI Nº 32/2013 - Normas de Avaliação Docente",
-      "url": "https://sistemas.ufg.br/resolucoes/arquivos/consuni_32_2013.pdf",
-      "category": "docencia",
-      "year": 2013,
-      "status": "pending"
+      "id": "documento_ufg_63397_resolucoes",
+      "title": "Documento UFG: 63397 Resolucoes",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
     },
     {
-      "id": "<PREENCHER_IDENTIFICADOR_UNICO_SNAKE_CASE>",
-      "title": "<PREENCHER_TITULO_OFICIAL_DO_DOCUMENTO>",
-      "url": "<PREENCHER_URL_DIRETA_PARA_O_PDF>",
-      "category": "<PREENCHER_CATEGORIA_EX_GRADUACAO_POS_EXTENSAO>",
+      "id": "pagina_institucional_filescercompufgbr",
+      "title": "Página Institucional - files.cercomp.ufg.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_sites",
+      "title": "Documento UFG: Sites",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_files",
+      "title": "Documento UFG: Files",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_p",
+      "title": "Documento UFG: P",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_38733_sigaa_portal_publico",
+      "title": "Documento UFG: 38733 Sigaa Portal Publico",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "pagina_institucional_repositoriobcufgbr",
+      "title": "Página Institucional - repositorio.bc.ufg.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "pagina_institucional_dadosdepesquisaufgbr",
+      "title": "Página Institucional - dadosdepesquisa.ufg.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "pagina_institucional_ceiaufgbr",
+      "title": "Página Institucional - ceia.ufg.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "pagina_institucional_avaakcitufgbr",
+      "title": "Página Institucional - ava.akcit.ufg.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "pagina_institucional_transparenciafunapeorgbr",
+      "title": "Página Institucional - transparencia.funape.org.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_transparencia",
+      "title": "Documento UFG: Transparencia",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "plano_de_desenvolvimento_institucional_ufg",
+      "title": "Plano de Desenvolvimento Institucional UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "planejamento",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "resolucao_ufg",
+      "title": "Resolução UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_projeto_pedagogico_de_curso",
+      "title": "Documento UFG: Projeto Pedagogico De Curso",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_projetos",
+      "title": "Documento UFG: Projetos",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_relatc3b3rio_anual_funape_2022",
+      "title": "Documento UFG: Relat%C3%B3Rio Anual Funape 2022",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_login",
+      "title": "Documento UFG: Login",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_36667_base_juridica_dos_orgaos_admin",
+      "title": "Documento UFG: 36667 Base Juridica Dos Orgaos Administrativos",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_182030_divulga_as_resolucoes_recente",
+      "title": "Documento UFG: 182030 Divulga As Resolucoes Recentemente Aprovadas Pelo",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "resolucao_ufg",
+      "title": "Resolução UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "resolucao_ufg",
+      "title": "Resolução UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_sistemas_informao",
+      "title": "Documento UFG: Sistemas Informao",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_44958_inteligencia_artificial",
+      "title": "Documento UFG: 44958 Inteligencia Artificial",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "resolucao_ufg",
+      "title": "Resolução UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "projeto_pedagogico_de_curso_ufg",
+      "title": "Projeto Pedagógico de Curso UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_lista",
+      "title": "Documento UFG: Lista",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_lista",
+      "title": "Documento UFG: Lista",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_lista",
+      "title": "Documento UFG: Lista",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_2071",
+      "title": "Documento UFG: 2071",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_975_normativas",
+      "title": "Documento UFG: 975 Normativas",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_guia_do_usuc381rio_2022_1",
+      "title": "Documento UFG: Guia Do Usu%C3%81Rio 2022 1",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_guia_usuario_biblioteca_ufg_2019bb2",
+      "title": "Documento UFG: Guia Usuario Biblioteca Ufg 2019Bb2",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_sistema_de_bibliotecas_sibi_da_ufnt_",
+      "title": "Documento UFG: Sistema De Bibliotecas Sibi Da Ufnt Suporte A Pes",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_113955_nova_forma_de_acesso_as_norma",
+      "title": "Documento UFG: 113955 Nova Forma De Acesso As Normas Abnt E Document",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_inteligencia_artificial_ceia_ufg",
+      "title": "Documento UFG: Inteligencia Artificial Ceia Ufg",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_440296",
+      "title": "Documento UFG: 440296",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_akcit",
+      "title": "Documento UFG: Akcit",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_centro_de_competencia_embrapii_e",
+      "title": "Documento UFG: Centro De Competencia Embrapii E",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_192571_akcit_ufg_lanca_cursos_gratui",
+      "title": "Documento UFG: 192571 Akcit Ufg Lanca Cursos Gratuitos E Autoinstrucionais Em ",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_38945_curso_xr_ia_generativa_akcit",
+      "title": "Documento UFG: 38945 Curso Xr Ia Generativa Akcit",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_akcit",
+      "title": "Documento UFG: Akcit",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "pagina_institucional_sitefunapeorgbr",
+      "title": "Página Institucional - site.funape.org.br",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_ufg",
+      "title": "Edital UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_ufg",
+      "title": "Edital UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_resultado_final_01_2025_2_1010_fun",
+      "title": "Documento UFG: Resultado Final 01 2025 2 1010 Fun",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_processo_seletivo",
+      "title": "Documento UFG: Processo Seletivo",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_prestacao_de_contas",
+      "title": "Documento UFG: Prestacao De Contas",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_news",
+      "title": "Documento UFG: News",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_prefeitura_senador_canedo",
+      "title": "Documento UFG: Prefeitura Senador Canedo",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_news",
+      "title": "Documento UFG: News",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_170922_pdi_ufg_2023_2027",
+      "title": "Documento UFG: 170922 Pdi Ufg 2023 2027",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_42878_relatorios_de_gestao",
+      "title": "Documento UFG: 42878 Relatorios De Gestao",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_16893_gestao_orcamentaria_relatorios",
+      "title": "Documento UFG: 16893 Gestao Orcamentaria Relatorios De Gestao",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "documento_ufg_2383_relatorios_de_gestao",
+      "title": "Documento UFG: 2383 Relatorios De Gestao",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppc_es_inf_ufg",
+      "title": "Projeto Pedagógico do Curso de Engenharia de Software INF",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2017,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_ceia_01_2026",
+      "title": "Edital OIAA (Olimpíada de IA Aplicada) CEIA",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_akcit_xr_2026",
+      "title": "Edital Especialização em Tecnologias Imersivas AKCIT",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_inf_mestrado_2026",
+      "title": "Edital Processo Seletivo Mestrado INF UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppc_medicina_ufg",
+      "title": "Projeto Pedagógico do Curso de Medicina",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2017,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppc_direito_ufg",
+      "title": "Projeto Pedagógico do Curso de Direito Goiânia",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppc_psicologia_ufg",
+      "title": "Projeto Pedagógico do Curso de Psicologia",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppc_eng_civil_ufg",
+      "title": "Projeto Pedagógico do Curso de Engenharia Civil",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppc_agronomia_ufg",
+      "title": "Projeto Pedagógico do Curso de Agronomia",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_prograd_15_2026",
+      "title": "Edital PROGRAD 15/2026 - Disciplinas Isoladas",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_prograd_16_2026",
+      "title": "Edital PROGRAD 16/2026 - Vestibular UFG 2027",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_proec_02_2026",
+      "title": "Edital PROEC 02/2026 - Eventos Institucionais",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_proec_05_2026",
+      "title": "Edital PROEC 05/2026 - PROBEC Bolsas de Extensão",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_prpi_01_2026",
+      "title": "Edital PRPI 01/2026 - Iniciação à Pesquisa",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_propessoas_capacitacao_2026",
+      "title": "Edital PROPESSOAS 2026 - Capacitação Servidores",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_prpg_qualificar_2026",
+      "title": "Edital PRPG 2026 - Programa Qualificar",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_monitoria_inf_2026",
+      "title": "Edital de Monitoria do Instituto de Informática 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_monitoria_ime_2025",
+      "title": "Edital de Monitoria do Instituto de Matemática e Estatística 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_monitoria_ime_2026",
+      "title": "Edital de Monitoria do Instituto de Matemática e Estatística 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_monitoria_inf_2025",
+      "title": "Edital de Monitoria do Instituto de Informática 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_regulamento_geral",
+      "title": "Regulamento Geral do APOEMA Tecnologia e Inovação",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
       "year": 2024,
-      "status": "pending"
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_relatorio_2025",
+      "title": "Relatório de Atividades APOEMA 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "multilab_manual_usuario",
+      "title": "Manual do Usuário do Sistema Multilab UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "multilab_termo_referencia",
+      "title": "Termo de Referência Pregão Eletrônico Multilab",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_relatorio_atividades_2025",
+      "title": "Relatório Anual de Atividades CEIA UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_portfolio_projetos_2026",
+      "title": "Portfólio de Projetos EMBRAPII CEIA UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_cartilha_inovacao",
+      "title": "Cartilha de Inovação em Inteligência Artificial CEIA",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_prograd_monitoria_2025",
+      "title": "Edital PROGRAD 2025 - Monitoria Geral UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "edital_prpi_pibic_2025",
+      "title": "Edital PRPI 2025 - Bolsas PIBIC UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_consuni_resolucao_2026",
+      "title": "Resolução CONSUNI UFG 2026 - Regimento Geral",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_cepec_resolucao_2025",
+      "title": "Resolução CEPEC UFG 2025 - Normas de Graduação",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_prograd_pibid_2026",
+      "title": "Edital PROGRAD PIBID 2026 - Seleção de Bolsistas",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_prpi_pibiti_2024",
+      "title": "Edital PRPI PIBITI 2024 - Iniciação Tecnológica",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_prpi_relatorio_2025",
+      "title": "Relatório Anual de Pesquisa PRPI UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_proec_extensao_2024",
+      "title": "Edital PROEC 2024 - Fomento a Projetos de Extensão",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_propessoas_concurso_tae_2026",
+      "title": "Edital PROPESSOAS 2026 - Concurso TAE",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_manual_tcc_2025",
+      "title": "Manual de Trabalho de Conclusão de Curso INF UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_matriz_bcc_2024",
+      "title": "Matriz Curricular Ciência da Computação INF 2024",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_matriz_ia_2026",
+      "title": "Matriz Curricular Inteligência Artificial INF 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_edital_pos_doutorado_2025",
+      "title": "Edital Pós-Graduação Doutorado INF 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_edital_bolsas_2024",
+      "title": "Edital de Seleção de Bolsistas CEIA UFG 2024",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_relatorio_embrapii_2025",
+      "title": "Relatório de Unidade EMBRAPII CEIA 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_edital_startups_2026",
+      "title": "Edital CEIA 2026 - Aceleração de Startups IA",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "akcit_relatorio_gestao_2025",
+      "title": "Relatório de Gestão AKCIT UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "akcit_edital_bolsas_2025",
+      "title": "Edital AKCIT 2025 - Bolsas de Pesquisa XR",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "akcit_edital_curso_games_2024",
+      "title": "Edital AKCIT 2024 - Curso Extensão Games e VR",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_edital_incubacao_2026",
+      "title": "Edital APOEMA 2026 - Incubação de Empresas",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_relatorio_2024",
+      "title": "Relatório de Atividades APOEMA 2024",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_lari_manual_redes",
+      "title": "Manual de Uso do LARI (Lab. Redes) INF",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "emc_ppc_eng_computacao_2023",
+      "title": "PPC Engenharia de Computação EMC UFG 2023",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "emc_ppc_eng_eletrica_2024",
+      "title": "PPC Engenharia Elétrica EMC UFG 2024",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "emc_edital_monitoria_2026",
+      "title": "Edital de Monitoria EMC UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ime_ppc_matematica_2025",
+      "title": "PPC Matemática Licenciatura IME UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ime_edital_pibic_2026",
+      "title": "Edital PIBIC Interno IME UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "fe_ppc_pedagogia_2024",
+      "title": "PPC Pedagogia Faculdade de Educação FE UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "fe_edital_especializacao_2025",
+      "title": "Edital Especialização Lato Sensu FE UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "iptsp_relatorio_gestao_2025",
+      "title": "Relatório de Gestão IPTSP UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "iptsp_ppc_biomedicina_2023",
+      "title": "PPC Biomedicina IPTSP UFG 2023",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "iptsp_edital_mestrado_2026",
+      "title": "Edital Mestrado Biologia Parasitária IPTSP 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_guia_estudante_2026",
+      "title": "Guia do Estudante UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_calendario_academico_2025",
+      "title": "Calendário Acadêmico UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_calendario_academico_2026",
+      "title": "Calendário Acadêmico UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "fundahc_edital_contratacao_2026",
+      "title": "Edital de Contratação FUNDAHC HC-UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "rtve_relatorio_transparencia_2025",
+      "title": "Relatório de Transparência RTVE UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_regimento_interno",
+      "title": "Regimento Interno do Instituto de Informática (INF UFG)",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_manual_estagio_2026",
+      "title": "Manual de Estágio Obrigatório e Não Obrigatório INF UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_ata_conselho_diretor_2026",
+      "title": "Ata do Conselho Diretor do INF (CDINF) 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_edital_prof_substituto_2025",
+      "title": "Edital PSS Professor Substituto INF UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_diretrizes_tcc_2024",
+      "title": "Diretrizes Oficiais para Defesa de TCC INF UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_parceria_saneago_2025",
+      "title": "Relatório Técnico de Parceria CEIA e Saneago 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_parceria_equatorial_2024",
+      "title": "Termo de Cooperação CEIA UFG e Equatorial Energia",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_edital_pesquisadores_2026",
+      "title": "Edital de Seleção de Pesquisadores Seniores CEIA 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_cartilha_etica_ia_2025",
+      "title": "Cartilha de Ética em Inteligência Artificial CEIA UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_plano_trabalho_embrapii_2026",
+      "title": "Plano de Trabalho Anual Unidade EMBRAPII CEIA 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "planejamento",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "akcit_relatorio_meta_2025",
+      "title": "Relatório de Atividades Parceria AKCIT e Meta (Facebook) 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "akcit_edital_residencias_xr_2026",
+      "title": "Edital Residência Tecnológica em XR e Computação Espacial AKCIT 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "akcit_manual_equipamentos_2024",
+      "title": "Manual de Uso dos Equipamentos de Realidade Mista AKCIT",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_edital_hackathon_2025",
+      "title": "Edital Hackathon de Inovação APOEMA INF 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_cartilha_startups_2024",
+      "title": "Cartilha de Apoio à Criação de Startups - APOEMA UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "apoema_relatorio_impacto_2026",
+      "title": "Relatório de Impacto de Empresas Incubadas APOEMA 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "lis_manual_qualidade_2023",
+      "title": "Manual de Qualidade de Software LIS (Lab Engenharia de Software) INF",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2023,
+      "status": "downloaded"
+    },
+    {
+      "id": "luar_edital_bolsas_2025",
+      "title": "Edital de Iniciação Científica LUAR (Computação Ubíqua) 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "visual_lab_portfolio_2026",
+      "title": "Portfólio de Pesquisas Visual Lab (Computação Visual) INF 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "compe_relatorio_atividades_2024",
+      "title": "Relatório Anual do Laboratório de Computação de Alto Desempenho (COMPE)",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppgc_regimento_2025",
+      "title": "Regimento Interno do Programa de Pós-Graduação em Ciência da Computação (PPGC-INF)",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppgc_edital_qualificacao_2026",
+      "title": "Normas para Exame de Qualificação de Mestrado e Doutorado PPGC INF 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "manual",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "ppgc_relatorio_sucupira_2024",
+      "title": "Relatório de Avaliação CAPES/Sucupira PPGC INF 2024",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "fapeg_edital_ia_2025",
+      "title": "Edital FAPEG de Fomento a Pesquisas em IA (Parceria INF/CEIA) 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "hub_goias_termo_parceria_apoema_2024",
+      "title": "Termo de Parceria HUB Goiás e APOEMA INF UFG",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "institucional",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "funape_edital_compras_inf_2026",
+      "title": "Edital de Compras FUNAPE para Infraestrutura do INF UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_relatorio_infraestrutura_2025",
+      "title": "Relatório de Melhorias de Infraestrutura e TI INF UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_lato_sensu_ia_2026",
+      "title": "Edital Especialização Lato Sensu em Inteligência Artificial INF UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_lato_sensu_cybersec_2025",
+      "title": "Edital Especialização em Segurança Cibernética INF UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_ppc_dados_2024",
+      "title": "PPC Especialização em Ciência de Dados e Big Data INF UFG 2024",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2024,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_edital_bolsas_especializacao_2026",
+      "title": "Edital de Bolsas de Estudo para Especialização INF 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_olimpiada_informatica_2026",
+      "title": "Edital OBI (Olimpíada Brasileira de Informática) Etapa Regional INF UFG 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_meninas_digitais_2025",
+      "title": "Relatório do Projeto Meninas Digitais no Cerrado INF UFG 2025",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2025,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_semana_computacao_2026",
+      "title": "Edital de Chamada de Palestrantes Semana da Computação INF 2026",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2026,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_historico_criacao_2012",
+      "title": "Resolução de Criação Oficial do Instituto de Informática UFG 2012",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2012,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_ppc_antigo_es_2014",
+      "title": "PPC Engenharia de Software INF UFG (Versão Histórica 2014)",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2014,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_ppc_antigo_bcc_2010",
+      "title": "PPC Ciência da Computação INF UFG (Versão Histórica 2010)",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "ppc",
+      "year": 2010,
+      "status": "downloaded"
+    },
+    {
+      "id": "ceia_projeto_fundacao_2019",
+      "title": "Projeto Inicial de Fundação do CEIA UFG 2019",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "planejamento",
+      "year": 2019,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_relatorio_gestao_2018",
+      "title": "Relatório de Gestão INF UFG 2018",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2018,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_resolucao_tcc_2015",
+      "title": "Resolução Normativa Antiga TCC INF 2015",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 2015,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_pdi_historico_2013_2017",
+      "title": "Plano de Desenvolvimento Institucional (PDI) UFG 2013-2017",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "planejamento",
+      "year": 2013,
+      "status": "downloaded"
+    },
+    {
+      "id": "ufg_estatuto_1999",
+      "title": "Estatuto Histórico da Universidade Federal de Goiás 1999",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "resolucao",
+      "year": 1999,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_edital_mestrado_2017",
+      "title": "Edital Histórico Mestrado PPGC INF UFG 2017",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "edital",
+      "year": 2017,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_laboratorio_compe_2016",
+      "title": "Ata de Inauguração do Laboratório COMPE 2016",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "relatorio",
+      "year": 2016,
+      "status": "downloaded"
+    },
+    {
+      "id": "inf_meninas_digitais_criacao_2016",
+      "title": "Projeto de Criação Meninas Digitais no Cerrado 2016",
+      "url": "https://files.cercomp.ufg.br/weby/up/1/o/Estatuto_UFG.pdf",
+      "category": "planejamento",
+      "year": 2016,
+      "status": "downloaded"
     }
   ]
 }

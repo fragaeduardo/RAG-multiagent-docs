@@ -4,3 +4,7 @@ data/chunks/
 data/database/
 data/parsed/
 arquitetura.md
+
+# Python Cache
+**/__pycache__/
+*.pyc

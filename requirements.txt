@@ -1,0 +1,12 @@
+# Ferramentas Web e ETL (Download)
+cloudscraper>=1.2.71
+
+# Parser de Arquivos
+docling>=2.5.2
+
+# Vector DB
+qdrant-client>=1.8.0
+
+# Chunker de Texto SOTA
+ftfy>=6.2.0
+langchain-text-splitters>=0.2.0

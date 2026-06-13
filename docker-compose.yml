@@ -1,0 +1,13 @@
+services:
+  rag_etl_app:
+    build: .
+    container_name: rag_etl_app
+    volumes:
+      # Montagem local para refletir códigos instantaneamente e persistir dados baixados
+      - .:/app
+    # Executa o contêiner com as mesmas permissões do seu usuário host para evitar erro de EACCES no root
+    user: "${UID:-1000}:${GID:-1000}"
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Mantém o container vivo para receber comandos via exec
+    command: tail -f /dev/null
