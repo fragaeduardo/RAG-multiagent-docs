@@ -1,0 +1,1 @@
+# O vetorizador é responsável por receber os chunks gerados e usar uma skill de embeddings para vetorizar e salvar no DB.

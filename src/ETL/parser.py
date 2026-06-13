@@ -1,0 +1,1 @@
+# o parser é responsável por receber os arquivos baixados e gerar as versões em .md deles usando uma skill

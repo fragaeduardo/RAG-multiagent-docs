@@ -1,0 +1,1 @@
+# O dbsearch é a skill responsável por acessar o banco de dados e fazer buscas

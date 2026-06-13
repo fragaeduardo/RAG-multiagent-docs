@@ -1,0 +1,1 @@
+# O download é a skill responsável por fazer requisições web, contornar bloqueios e salvar os arquivos PDF no disco local.

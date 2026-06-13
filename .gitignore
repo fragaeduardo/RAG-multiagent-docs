@@ -1,0 +1,6 @@
+.env
+data/files/
+data/chunks/
+data/database/
+data/parsed/
+arquitetura.md

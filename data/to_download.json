@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "source": "Portal UFG",
+    "last_updated": "2026-06-08",
+    "description": "Fila de documentos da Universidade Federal de Goiás para ingestão no RAG-LPP."
+  },
+  "documents": [
+    {
+      "id": "resolucao_cepec_1752_2022",
+      "title": "Resolução CEPEC Nº 1752/2022 - RGCG (Regulamento Geral dos Cursos de Graduação)",
+      "url": "https://sistemas.ufg.br/resolucoes/arquivos/cepec_1752_2022.pdf",
+      "category": "graduacao",
+      "year": 2022,
+      "status": "pending"
+    },
+    {
+      "id": "estatuto_ufg",
+      "title": "Estatuto da Universidade Federal de Goiás",
+      "url": "https://sistemas.ufg.br/resolucoes/arquivos/estatuto_ufg.pdf",
+      "category": "institucional",
+      "year": 2021,
+      "status": "pending"
+    },
+    {
+      "id": "resolucao_consuni_32_2013",
+      "title": "Resolução CONSUNI Nº 32/2013 - Normas de Avaliação Docente",
+      "url": "https://sistemas.ufg.br/resolucoes/arquivos/consuni_32_2013.pdf",
+      "category": "docencia",
+      "year": 2013,
+      "status": "pending"
+    },
+    {
+      "id": "<PREENCHER_IDENTIFICADOR_UNICO_SNAKE_CASE>",
+      "title": "<PREENCHER_TITULO_OFICIAL_DO_DOCUMENTO>",
+      "url": "<PREENCHER_URL_DIRETA_PARA_O_PDF>",
+      "category": "<PREENCHER_CATEGORIA_EX_GRADUACAO_POS_EXTENSAO>",
+      "year": 2024,
+      "status": "pending"
+    }
+  ]
+}

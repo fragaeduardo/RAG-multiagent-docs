@@ -1,0 +1,1 @@
+# O parse é a skill responsável por ler os arquivos em PDF e extrair todo o texto bruto de forma estruturada.
