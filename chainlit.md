@@ -16,3 +16,10 @@ Fique à vontade para fazer perguntas como:
 * *"Como funciona o trancamento de matrícula?"*
 * *"O que acontece se eu faltar muito nas disciplinas?"*
 * *"Quais são as regras para o jubilamento?"*
+
+---
+### 👥 Desenvolvedores (Créditos)
+* Caio Wallace Machado Gomes
+* Eduardo Fraga Pereira
+* Rafael Augusto Dias Batista
+* Lucas Boclin Cunha Borges

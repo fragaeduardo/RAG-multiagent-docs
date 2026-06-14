@@ -55,3 +55,11 @@ make chat
 Abra o seu navegador de internet no endereço `http://localhost:8000` e converse com o assistente! Você verá os pensamentos de cada agente na tela.
 
 > **Dica de Auditoria:** Pela própria interface Web, você pode abrir as "Fontes" para ver exatamente qual PDF a IA consultou. Além disso, o sistema salvará um histórico físico das respostas no arquivo de auditoria em `data/logs/rag_queries.log`.
+
+---
+
+## 👥 Desenvolvedores (Créditos)
+* Caio Wallace Machado Gomes
+* Eduardo Fraga Pereira
+* Rafael Augusto Dias Batista
+* Lucas Boclin Cunha Borges
