@@ -59,7 +59,9 @@ def format_sources(hits: list[Any], indices: list[int] | None = None) -> str:
         if texto:
             # Exibe apenas os primeiros 1000 caracteres para auditoria rápida
             snippet = texto[:1000] + "…" if len(texto) > 1000 else texto
-            lines.extend([f"```\n{snippet}\n```", ""])
+            # Converte as linhas para blockquote para renderizar o Markdown lindamente no UI
+            quoted_snippet = "\n".join([f"> {line}" for line in snippet.split("\n")])
+            lines.extend([quoted_snippet, "", "---"])
             
     return "\n".join(lines)
 
