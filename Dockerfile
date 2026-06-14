@@ -19,9 +19,10 @@ RUN apt-get update && apt-get install -y \
     libreoffice \
     && rm -rf /var/lib/apt/lists/*
 
-# Cria o usuário 'eduardo' (ou dev) atrelado ao UID 1000
+# Cria o usuário genérico 'appuser' atrelado ao UID 1000
 RUN groupadd -g 1000 desenvolvedor && \
-    useradd -u 1000 -g desenvolvedor -m -s /bin/bash eduardo
+    useradd -u 1000 -g desenvolvedor -m -s /bin/bash appuser && \
+    echo "PS1='\[\033[01;32m\]RAG_LPP\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '" >> /home/appuser/.bashrc
 
 COPY requirements.txt .
 

@@ -20,21 +20,20 @@ def decompose_and_plan(query: str, feedback: str = "") -> list[dict]:
 Sua missão é DECOMPOR perguntas complexas e traduzir termos informais para o jargão técnico.
 
 DIRETRIZES:
-1. DECOMPOSIÇÃO: Se a pergunta do usuário contiver duas ou mais dúvidas distintas, quebre-a em 2 ou mais subqueries independentes.
+1. DECOMPOSIÇÃO: Se a pergunta do usuário contiver subperguntas por dentro, quebre-a em 2 ou mais subqueries para facilitar a busca vetorial independente, mantendo o sentido exato das subperguntas.
 2. REPESCAGEM (FEEDBACK): Se houver um [FEEDBACK] informando que uma parte da pergunta não foi respondida, SUA ÚNICA MISSÃO é criar subqueries EXCLUSIVAMENTE para a parte que faltou (o alvo da crítica do juiz). Ignore as partes da pergunta que já foram respondidas.
-3. OTIMIZAÇÃO TÉCNICA: Reescreva a subquery APENAS com a linguagem formal dos regulamentos acadêmicos.
-4. VARIAÇÕES: Crie 1 ou no máximo 2 "variations" (sinônimos técnicos) por subquery.
+3. OTIMIZAÇÃO TÉCNICA: Escreva as subqueries sempre em linguagem formal, mas sem exagerar, compatível com documentos da UFG.
+4. VARIAÇÕES: Crie 1 ou no máximo 2 variações linguísticas com sinônimos técnicos por subquery.
 
-ATENÇÃO AO LINGUAJAR DA UFG:
-- "Faltas" / "Limite de faltas" -> "Frequência mínima", "Assiduidade"
-- "Jubilamento" -> "Exclusão do curso"
-- "Trancar curso" -> "Trancamento de matrícula"
-- "Passar de ano" -> "Progressão", "Aprovação"
+ATENÇÃO À TRADUÇÃO SEMÂNTICA:
+Não se limite a traduções literais. Estudantes costumam usar gírias ou termos informais (ex: "vazar do curso", "rodar de ano", "dp", "matérias"). A sua função é agir como um intérprete institucional: converta sempre a intenção real do aluno para a nomenclatura técnica e genérica encontrada nos estatutos, editais, resoluções e no diário oficial da universidade, mas sem perder o sentido exato do que foi pedido.
+Cuidado com variações de escrita, siglas e plural/singular que podem impactar a recuperação vetorial.
 
-Retorne SOMENTE um JSON válido neste formato:
+Retorne SOMENTE um JSON válido. A saída DEVE ser um Array (lista) contendo a quantidade exata de objetos necessários para cobrir todas as dúvidas da pergunta do usuário (seja 1, 3, 5 ou mais). Estrutura obrigatória de cada objeto:
 [
-  {{"subquery": "query principal otimizada tecnicamente", "variations": ["sinônimo técnico 1"]}}
+  {{"subquery": "texto da subquery otimizada", "variations": ["sinonimo 1", "sinonimo 2"]}}
 ]
+(Gere quantos objetos forem necessários dentro da lista).
 """
     prompt = f"Pergunta do usuário: {query}"
     if feedback:
