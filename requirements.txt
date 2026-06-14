@@ -10,12 +10,15 @@ qdrant-client>=1.8.0
 # Chunker de Texto SOTA
 ftfy>=6.2.0
 langchain-text-splitters>=0.2.0
+langchain-experimental>=0.0.60
 
 # Modelos de Embeddings
 sentence-transformers>=3.0.0
 huggingface-hub>=0.23.0
 fastembed>=0.2.7
-
+google-adk>=2.0.0
+openai>=1.30.0
+google-generativeai>=0.8.0
 
 
 

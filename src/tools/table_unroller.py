@@ -1,6 +1,6 @@
 import re
 
-# Helper to split a table row by pipe, handling escaped pipes if necessary (though Docling usually escapes or doesn't)
+# Quebra a linha da tabela pelo pipe
 def _parse_row(row_str):
     # Remove leading and trailing pipes
     row_str = row_str.strip()
@@ -9,13 +9,13 @@ def _parse_row(row_str):
     if row_str.endswith('|'):
         row_str = row_str[:-1]
     
-    # Split by pipe and strip
-    return [cell.strip() for cell in row_str.split('|')]
+    # Split by pipe and strip, convertendo <br> de células multilinha em espaços
+    return [re.sub(r'<br\s*/?>', ' ', cell, flags=re.IGNORECASE).strip() for cell in row_str.split('|')]
 
 def unroll_markdown_tables(text: str) -> str:
     """
-    Detecta tabelas Markdown no texto e as desdobra (unroll) em parágrafos de texto corrido
-    no formato 'Cabeçalho: Valor', otimizando a semântica para o modelo de Embedding (RAG).
+    Transforma as tabelas do markdown em texto corrido (Cabeçalho: Valor)
+    pra facilitar a vida do modelo de embedding.
     """
     lines = text.split('\n')
     unrolled_lines = []
@@ -28,7 +28,7 @@ def unroll_markdown_tables(text: str) -> str:
         line = lines[i]
         stripped = line.strip()
         
-        # Verifica se é o início de uma tabela (linha com pipes seguida de uma linha com |---|)
+        # Checa se achou uma tabela nova (linha com pipe e depois o separador |---|)
         if not in_table and stripped.startswith('|') and i + 1 < len(lines) and re.match(r'^\|?[\s\-:]+\|[\s\-:\|]+$', lines[i+1].strip()):
             in_table = True
             table_headers = _parse_row(line)
@@ -69,8 +69,8 @@ def unroll_markdown_tables(text: str) -> str:
                 # Tabela acabou (encontrou uma linha sem pipe)
                 # Nota: linhas em branco podem ou não significar o fim da tabela dependendo do parser, mas tabelas normais não têm quebra.
                 if stripped == '':
-                    # Tolerância a linhas em branco dentro da tabela (Docling às vezes quebra)
-                    # Vamos olhar a próxima linha para ver se a tabela continua
+                    # Dá um desconto pra linhas em branco no meio da tabela (Docling vacila às vezes)
+                    # Dá uma espiada na próxima linha pra ver se a tabela continua
                     next_is_table = False
                     for j in range(i+1, min(i+3, len(lines))):
                         if lines[j].strip().startswith('|'):

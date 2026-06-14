@@ -3,6 +3,9 @@ import sys
 import json
 import logging
 import uuid
+import gc
+import torch
+from tqdm import tqdm
 
 # Ajuste de path para import local
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -15,13 +18,22 @@ from fastembed import SparseTextEmbedding
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Silencia logs de tráfego de rede (HuggingFace e Qdrant) para limpar o terminal
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("qdrant_client").setLevel(logging.WARNING)
+logging.getLogger("huggingface_hub").setLevel(logging.WARNING)
+
 COLLECTION_NAME = "ufg_institucional"
 QDRANT_PATH = "data/qdrant_db"
+QDRANT_URL = os.getenv("QDRANT_URL", "")
 
 def init_qdrant(embed_dim: int) -> QdrantClient:
     """Inicializa e cria a collection no Qdrant se não existir."""
-    os.makedirs(QDRANT_PATH, exist_ok=True)
-    client = QdrantClient(path=QDRANT_PATH)
+    if QDRANT_URL:
+        client = QdrantClient(url=QDRANT_URL)
+    else:
+        os.makedirs(QDRANT_PATH, exist_ok=True)
+        client = QdrantClient(path=QDRANT_PATH)
     
     # Verifica se a coleção já existe
     try:
@@ -38,6 +50,13 @@ def init_qdrant(embed_dim: int) -> QdrantClient:
 
 def processar_e_vetorizar(input_dir: str):
     """Lê os chunks e envia para o banco vetorial."""
+    
+    # 🧹 Limpeza agressiva da placa de vídeo antes de carregar a IA
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        gc.collect()
+        logger.info("🧹 Cache da GPU zerado com sucesso para iniciar a vetorização.")
+        
     model = carregar_modelo()
     real_dim = model.get_sentence_embedding_dimension() if model else EMBED_DIM
     client = init_qdrant(real_dim)
@@ -46,6 +65,7 @@ def processar_e_vetorizar(input_dir: str):
     sparse_model = SparseTextEmbedding(model_name="Qdrant/bm25")
     
     # Controle de estado para permitir que o script pare e recomece (Resume-friendly)
+    os.makedirs(QDRANT_PATH, exist_ok=True)
     TRACKER_FILE = os.path.join(QDRANT_PATH, "processed_files.json")
     processed_files = set()
     if os.path.exists(TRACKER_FILE):
@@ -68,12 +88,12 @@ def processar_e_vetorizar(input_dir: str):
         if not chunks:
             continue
             
-        logger.info(f"Vetorizando {json_file} ({len(chunks)} chunks)...")
+        logger.info(f"[{json_files.index(json_file) + 1}/{len(json_files)}] Vetorizando {json_file} ({len(chunks)} chunks)...")
         
-        # Prepara lotes (batches) de textos para o modelo e Qdrant
-        BATCH_SIZE = 32
+        # Lê do .env ou usa 64 como padrão para acelerar
+        BATCH_SIZE = int(os.getenv("EMBEDDING_BATCH_SIZE", 64))
         
-        for i in range(0, len(chunks), BATCH_SIZE):
+        for i in tqdm(range(0, len(chunks), BATCH_SIZE), desc=f"Lotes de {BATCH_SIZE}", unit="batch"):
             batch = chunks[i:i + BATCH_SIZE]
             
             # Extrair os textos usando a chave `contextualized_content` (que tem os breadcrumbs e anti-amnésia)
@@ -112,6 +132,10 @@ def processar_e_vetorizar(input_dir: str):
                 collection_name=COLLECTION_NAME,
                 points=points
             )
+            
+            # 🧹 Libera os resíduos matemáticos deste batch da VRAM
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
             
         total_chunks += len(chunks)
         

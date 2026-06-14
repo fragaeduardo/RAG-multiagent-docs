@@ -2,6 +2,8 @@ services:
   rag_etl_app:
     build: .
     container_name: rag_etl_app
+    depends_on:
+      - qdrant
     volumes:
       # Montagem local para refletir códigos instantaneamente e persistir dados baixados
       - .:/app
@@ -12,6 +14,7 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
       - HF_HOME=/app/models/hf_cache
+      - QDRANT_URL=http://qdrant:6333
     deploy:
       resources:
         reservations:
@@ -21,3 +24,13 @@ services:
               capabilities: [gpu]
     # Mantém o container vivo para receber comandos via exec
     command: tail -f /dev/null
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_db
+    restart: unless-stopped
+    ports:
+      # Porta 6334 no host → 6333 no container (evita conflito com outros projetos usando 6333)
+      - "6334:6333"
+    volumes:
+      - ./data/qdrant_server_storage:/qdrant/storage

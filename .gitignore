@@ -1,8 +1,12 @@
 .env
-data/files/
+data/raw/
+data/processed/
 data/chunks/
 data/database/
 data/parsed/
+data/qdrant_db/
+data/qdrant_server_storage/
+data/logs
 models/hf_cache/
 arquitetura.md
 scratch

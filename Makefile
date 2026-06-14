@@ -27,3 +27,6 @@ limpar:
 
 chunk:
 	python src/ETL/chunker.py
+
+test-rag:
+	python src/RAG/orchestrator.py "$(query)"
