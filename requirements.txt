@@ -1,31 +1,35 @@
-# Ferramentas Web e ETL (Download)
-cloudscraper>=1.2.71
-
-# Parser de Arquivos
-docling>=2.5.2
-
-# Vector DB
+# ====================================================
+# DEPENDÊNCIAS DO RAG (NÃO COMENTAR!)
+# ====================================================
+# Vector DB (Para conectar no Qdrant e fazer as buscas)
 qdrant-client>=1.8.0
 
-# Chunker de Texto SOTA
-ftfy>=6.2.0
-langchain-text-splitters>=0.2.0
-langchain-experimental>=0.0.60
-
-# Modelos de Embeddings
+# Embeddings e Reranker (Essenciais para a busca híbrida do RAG)
 sentence-transformers>=3.0.0
 huggingface-hub>=0.23.0
 fastembed>=0.2.7
-google-adk>=2.0.0
+
+# Inteligência Artificial (Agentes)
 openai>=1.30.0
 google-generativeai>=0.8.0
+google-adk>=2.0.0
 
 
+# ====================================================
+# DEPENDÊNCIAS DO ETL (DOWNLOAD, PARSING E CHUNKING)
+# ====================================================
+# DESCOMENTAR SOMENTE SE FOR RODAR O ETL
+# cloudscraper>=1.2.71
+# docling>=2.5.2
+# ftfy>=6.2.0
+# langchain-text-splitters>=0.2.0
+# langchain-experimental>=0.0.60
 
 
-
-
+# ====================================================
 # Dependências de Sistema (baixadas via apt-get no Dockerfile)
+# ====================================================
+# DESCOMENTAR SOMENTE SE FOR RODAR O ETL (Isso vai no Dockerfile)
 # tesseract-ocr        (Motor de OCR base)
 # tesseract-ocr-por    (Pacote de idioma Português para OCR)
 # libgl1               (OpenGL - Necessário para o OpenCV/Docling manipular imagens)
