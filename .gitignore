@@ -3,7 +3,9 @@ data/files/
 data/chunks/
 data/database/
 data/parsed/
+models/hf_cache/
 arquitetura.md
+scratch
 
 # Python Cache
 **/__pycache__/

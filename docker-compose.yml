@@ -5,9 +5,19 @@ services:
     volumes:
       # Montagem local para refletir códigos instantaneamente e persistir dados baixados
       - .:/app
-    # Executa o contêiner com as mesmas permissões do seu usuário host para evitar erro de EACCES no root
+    # Executa o contêiner com as mesmas permissões do usuário host para evitar erro de EACCES no root
     user: "${UID:-1000}:${GID:-1000}"
+    env_file:
+      - .env
     environment:
       - PYTHONUNBUFFERED=1
+      - HF_HOME=/app/models/hf_cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     # Mantém o container vivo para receber comandos via exec
     command: tail -f /dev/null

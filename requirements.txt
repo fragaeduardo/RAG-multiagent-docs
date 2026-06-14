@@ -10,3 +10,17 @@ qdrant-client>=1.8.0
 # Chunker de Texto SOTA
 ftfy>=6.2.0
 langchain-text-splitters>=0.2.0
+
+
+
+
+
+
+
+# Dependências de Sistema (baixadas via apt-get no Dockerfile)
+# tesseract-ocr        (Motor de OCR base)
+# tesseract-ocr-por    (Pacote de idioma Português para OCR)
+# libgl1               (OpenGL - Necessário para o OpenCV/Docling manipular imagens)
+# libglib2.0-0         (Biblioteca gráfica C - Auxiliar do OpenCV)
+# poppler-utils        (Utilitários de PDF em C++)
+# libpoppler-cpp-dev   (Headers do Poppler para bindings Python)
