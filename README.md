@@ -44,11 +44,14 @@ make start
 ```
 *(O comando acima irá baixar as imagens do Python e do Banco de Dados Vetorial e subir o servidor na sua máquina).*
 
-### Passo 4: Fazer a sua Pergunta!
-Agora que o motor está rodando, basta você abrir o terminal e fazer qualquer pergunta sobre as normas da UFG. O sistema vai pensar, pesquisar e te responder no próprio console:
+### Passo 4: Fazer a sua Pergunta (Interface Web)!
+Agora que o motor está rodando, nós temos uma interface gráfica completa (estilo ChatGPT) para você interagir. Basta rodar o comando abaixo no terminal:
 
 ```bash
-make test-rag query="Segundo as normas, o que acontece se eu faltar muito nas disciplinas? Tem como eu ser jubilado do meu curso de graduação?"
+make chat
 ```
 
-> **Dica de Auditoria:** Toda vez que você ou alguém fizer uma pergunta, o sistema salvará a pergunta, os documentos encontrados e a resposta final dentro do arquivo secreto de logs em `data/logs/rag_queries.log`.
+*(Isso iniciará o sistema na porta 8000).* 
+Abra o seu navegador de internet no endereço `http://localhost:8000` e converse com o assistente! Você verá os pensamentos de cada agente na tela.
+
+> **Dica de Auditoria:** Pela própria interface Web, você pode abrir as "Fontes" para ver exatamente qual PDF a IA consultou. Além disso, o sistema salvará um histórico físico das respostas no arquivo de auditoria em `data/logs/rag_queries.log`.

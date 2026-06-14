@@ -10,6 +10,8 @@ data/files
 data/logs
 models/hf_cache/
 scratch
+.chainlit
+.files
 
 # Python Cache
 **/__pycache__/

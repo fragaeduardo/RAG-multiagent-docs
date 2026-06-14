@@ -58,8 +58,8 @@ Pergunta → Planner → Retriever → Synthesizer → Judge
   * **Memória Persistente**: A variável `all_raw_chunks` acumula documentos recuperados entre retentativas para evitar amnésia de contexto.
 
 * **Agente: Planner** (`src/RAG/planner.py`) | *Modelo: openai/gpt-5.4-nano*
-  * Decompõe perguntas complexas em no máximo 2 queries otimizadas tecnicamente + variações semânticas.
-  * Tradução de jargões: (ex: "faltas" → "frequência mínima").
+  * Decompõe perguntas complexas em **N queries independentes** dinamicamente, sem limitar a busca vetorial por viés estrutural.
+  * Atua como **Intérprete Institucional Genérico**, mapeando qualquer gíria ou termo informal do estudante (ex: "vazar do curso") para o vocabulário técnico correto, blindando a inteligência contra "hardcodes" limitadores.
   * **Inteligência de Repescagem**: Ao receber feedback de falha do Juiz, foca **exclusivamente** na criação de queries para a parte da pergunta não respondida, ignorando o restante.
 
 * **Agente: Retriever** (`src/RAG/orchestrator.py` → `RetrieverAgent`)
@@ -79,6 +79,10 @@ Pergunta → Planner → Retriever → Synthesizer → Judge
 * **Agente: LLM-as-a-Judge** (`src/RAG/llm_as_judge.py`) | *Modelo: anthropic/claude-sonnet-4.6*
   * Auditor final rigoroso contra alucinações, omissões de informações chave ou respostas evasivas.
   * Aprovando a resposta, o loop encerra. Se reprovar, passa o motivo cirúrgico de volta ao Planner.
+
+* **Interface Web (Chainlit)** (`frontend/app.py` e `frontend/rag.py`)
+  * Motor visual assíncrono que consome a máquina de estados (`RAGState`) em tempo real.
+  * Renderiza o "pensamento" de cada Agente (passo a passo) e exibe as Fontes Primárias (PDFs lidos) na lateral do Chat, viabilizando auditoria e uso prático por professores e avaliadores.
 
 ---
 

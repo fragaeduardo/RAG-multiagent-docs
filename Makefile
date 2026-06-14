@@ -30,3 +30,6 @@ chunk:
 
 test-rag:
 	python src/RAG/orchestrator.py "$(query)"
+
+chat ui:
+	chainlit run frontend/app.py --host 0.0.0.0 --port 8000
