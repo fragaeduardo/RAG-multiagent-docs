@@ -66,5 +66,11 @@ def rerank_chunks(query: str, chunks: List[Dict[str, Any]], top_k: int = 5) -> L
             breadcrumb = item['chunk'].get('breadcrumb', '')[:60]
             logger.info(f"  #{rank} [{item['rerank_score']:.4f}] {doc_id} → {breadcrumb}")
     
-    # Retorna o subconjunto de chunks com as melhores métricas de relevância
-    return [item["chunk"] for item in scored_chunks[:top_k]]
+    # Injeta a nota do Reranker no dicionário para auditoria no Frontend
+    top_chunks = []
+    for item in scored_chunks[:top_k]:
+        chunk_data = item["chunk"].copy()
+        chunk_data["rerank_score"] = item["rerank_score"]
+        top_chunks.append(chunk_data)
+        
+    return top_chunks

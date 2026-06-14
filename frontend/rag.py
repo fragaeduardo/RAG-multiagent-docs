@@ -48,14 +48,12 @@ def format_sources(hits: list[Any], indices: list[int] | None = None) -> str:
         
         # Como o Reranker devolve dicionários em final_chunks
         titulo = hit.get("document_id", "—")
-        arquivo = hit.get("arquivo_origem", "—")
         texto = hit.get("texto", "").strip()
         score = hit.get("rerank_score", 0.0)
         
         lines.extend([
-            f"**FONTE {src_num}** | Score: {score:.4f}",
-            f"- Arquivo: {arquivo}",
-            f"- Documento ID: {titulo}",
+            f"**FONTE {src_num}** | Score de Similaridade: {score:.4f}",
+            f"- Documento Base: {titulo}",
             "",
         ])
         if texto:
