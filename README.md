@@ -27,15 +27,19 @@ Como o banco de dados já foi processado e está incluso (via Snapshot Vetorial 
 ### Passo 1: Clonar o Repositório
 Abra o seu terminal e baixe o código:
 ```bash
-git clone https://github.com/seu-usuario/rag-ufg-lpp.git
-cd rag-ufg-lpp
+git clone https://github.com/fragaeduardo/RAG-multiagent-docs.git
+cd RAG-multiagent-docs
 ```
 
 ### Passo 2: Configurar as Chaves
-O sistema precisa se comunicar com as IAs para pensar. 
+O sistema precisa se comunicar com as IAs para pensar.
 1. Crie um arquivo chamado `.env` na raiz do projeto.
 2. Copie o conteúdo do arquivo `.env.example` para dentro dele.
-3. Preencha as suas chaves reais (`OPENROUTER_API_KEY` e `OPENAI_API_KEY`).
+3. Preencha as suas chaves reais. A `OPENROUTER_API_KEY` é a única **obrigatória** (provedor principal dos agentes). As demais são opcionais e ativam os fallbacks/recursos:
+   - `OPENROUTER_API_KEY` — provedor principal de LLM (**obrigatória**).
+   - `OPENAI_API_KEY` — fallback secundário, caso o OpenRouter falhe.
+   - `GEMINI_API_KEY` — fallback terciário.
+   - `HF_TOKEN` — opcional, apenas se usar a Inference API remota da Hugging Face para embeddings.
 
 ### Passo 3: Ligar a Máquina (Docker)
 O projeto roda totalmente isolado para não sujar o seu computador. Basta subir os containers:
@@ -45,13 +49,15 @@ make start
 *(O comando acima irá baixar as imagens do Python e do Banco de Dados Vetorial e subir o servidor na sua máquina).*
 
 ### Passo 4: Fazer a sua Pergunta (Interface Web)!
-Agora que o motor está rodando, nós temos uma interface gráfica completa (estilo ChatGPT) para você interagir. Basta rodar o comando abaixo no terminal:
+Agora que o motor está rodando, nós temos uma interface gráfica completa (estilo ChatGPT) para você interagir.
+
+O `make start` do passo anterior já te coloca **dentro do container**. A partir desse terminal (com o prompt `RAG_LPP:...$`), rode:
 
 ```bash
 make chat
 ```
 
-*(Isso iniciará o sistema na porta 8000).* 
+*(Isso iniciará o sistema na porta 8000, exposta para a sua máquina via Docker).* 
 Abra o seu navegador de internet no endereço `http://localhost:8000` e converse com o assistente! Você verá os pensamentos de cada agente na tela.
 
 > **Dica de Auditoria:** Pela própria interface Web, você pode abrir as "Fontes" para ver exatamente qual PDF a IA consultou. Além disso, o sistema salvará um histórico físico das respostas no arquivo de auditoria em `data/logs/rag_queries.log`.
