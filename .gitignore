@@ -16,3 +16,6 @@ scratch
 # Python Cache
 **/__pycache__/
 *.pyc
+
+# Testes / Benchmarks
+testes/
