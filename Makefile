@@ -1,4 +1,4 @@
-.PHONY: start down download parse
+.PHONY: start down download parse chunk vetorizador limpar search
 
 # Comando para ser rodado no HOST (sua maquina local)
 start:
@@ -15,6 +15,15 @@ download:
 
 parse:
 	python src/ETL/parser.py
+
+vetorizador vetorizar:
+	python src/ETL/vetorizador.py
+
+search:
+	python src/tools/dbsearch.py
+
+limpar:
+	python src/tools/clean_db.py
 
 chunk:
 	python src/ETL/chunker.py
